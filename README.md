@@ -47,6 +47,7 @@ appStoreReviews.getReviews('555731861', 'us', 1);
   version: '1.1',
   rate: '5',
   title: 'Very good',
+  updated: '2012-02-25T02:45:00-07:00',
   comment: 'Mucho mejor ahora. Ya se puede esconder el icono de la barra de menús.',
   vote: '0',
   country: 'us' ]
@@ -86,6 +87,7 @@ function insertReviewInDb(id, app, author, version, rate, title, comment, countr
 		version: version,
 		rate: rate,
 		title: title,
+    updated: '2012-02-25T02:45:00-07:00',
 		comment: comment,
 		country: country
 	}
